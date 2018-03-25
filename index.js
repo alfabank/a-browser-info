@@ -5,6 +5,10 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 exports.default = function () {
+	if (typeof window === 'undefined') {
+		return;
+	}
+
 	var ua = navigator.userAgent.toLowerCase().replace(/trident.* rv/, 'msie');
 	var mobileDevice = (/ip(?:hone|ad|od)|android|blackberry|windows phone/.exec(ua) + '').replace(/ /g, '-') || 'other';
 
