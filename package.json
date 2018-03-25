@@ -1,6 +1,6 @@
 {
   "name": "a-browser-info",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Makes browser name/version/platform information available in your app and DOM tree",
   "main": "./index.js",
   "repository": {
